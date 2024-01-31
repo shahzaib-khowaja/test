@@ -1,9 +1,5 @@
 name: Build and Deploy CICD
  
-on:
-  push:
-    branches:
-      - master
  
 jobs:
    Testrun:
