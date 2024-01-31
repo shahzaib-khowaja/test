@@ -1,0 +1,16 @@
+name: Build and Deploy CICD
+ 
+on:
+  push:
+    branches:
+      - master
+ 
+jobs:
+   Testrun:
+    runs-on: windows-latest
+ 
+    steps:
+    - name: unzip files
+      run: |
+        $result =2+2
+        Write-Host "Result of the calculation:$result"
